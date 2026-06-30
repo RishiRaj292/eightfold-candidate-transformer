@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Aditi Rao",
+    "primary_email": "aditi.rao@example.com",
+    "primary_phone": "+919876543210",
+    "skills": [
+      "FastAPI",
+      "JavaScript",
+      "Python",
+      "Redis"
+    ],
+    "years_experience": 4.0,
+    "overall_confidence": 0.86
+  },
+  {
+    "name": "Karan Mehta",
+    "primary_email": "karan.mehta@example.com",
+    "primary_phone": null,
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "SQL"
+    ],
+    "years_experience": 2.0,
+    "overall_confidence": 0.88
+  }
+]

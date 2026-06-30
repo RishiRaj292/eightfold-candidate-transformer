@@ -1,0 +1,14 @@
+Candidate: Aditi Rao
+
+Spoke with Aditi today. She is based in Bangalore, India and can be reached at +91 98765 43210.
+She joined Nexa Labs as a Backend Engineer in March 2023 and has about 3 years of experience.
+Strong in Python, FastAPI, JavaScript, and Redis.
+LinkedIn: https://www.linkedin.com/in/aditi-rao
+
+---
+
+Candidate: Karan Mehta
+
+Karan's email is karan.mehta@example.com. His listed phone is 12345, which appears incomplete.
+He joined Orbit Cloud as a Software Engineer in Jan 2024.
+Skills mentioned: Java, SQL, Spring Boot.

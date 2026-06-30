@@ -1,0 +1,326 @@
+[
+  {
+    "candidate_id": "cand_86d5c9729979",
+    "full_name": "Aditi Rao",
+    "emails": [
+      "aditi.rao@example.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/aditi-rao",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 4.0,
+    "skills": [
+      {
+        "name": "FastAPI",
+        "confidence": 0.9,
+        "sources": [
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.9,
+        "sources": [
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.9,
+        "sources": [
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Redis",
+        "confidence": 0.65,
+        "sources": [
+          "recruiter_notes"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Nexa Labs",
+        "title": "Backend Engineer",
+        "start": "2023-03",
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Aditi Rao"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "4"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "ADITI.RAO@example.com"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "98765 43210"
+      },
+      {
+        "field": "location.city",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Bengaluru, Karnataka, India"
+      },
+      {
+        "field": "location.region",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Bengaluru, Karnataka, India"
+      },
+      {
+        "field": "location.country",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Bengaluru, Karnataka, India"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_notes",
+        "method": "regex_note_extraction",
+        "record_id": "notes-block-1",
+        "confidence": 0.65,
+        "raw_value": "https://www.linkedin.com/in/aditi-rao"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Python; FastAPI; JS"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Python; FastAPI; JS"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": "Python; FastAPI; JS"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "contextual_regex_extraction",
+        "record_id": "notes-block-1",
+        "confidence": 0.65,
+        "raw_value": "Redis"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "exact_csv_columns",
+        "record_id": "CSV-1001",
+        "confidence": 0.9,
+        "raw_value": {
+          "company": "Nexa Labs",
+          "title": "Backend Engineer",
+          "start": "2023/03",
+          "end": null,
+          "summary": null
+        }
+      }
+    ],
+    "overall_confidence": 0.86
+  },
+  {
+    "candidate_id": "cand_e8994489246c",
+    "full_name": "Karan Mehta",
+    "emails": [
+      "karan.mehta@example.com"
+    ],
+    "phones": [],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 2.0,
+    "skills": [
+      {
+        "name": "Java",
+        "confidence": 0.9,
+        "sources": [
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Spring Boot",
+        "confidence": 0.65,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.9,
+        "sources": [
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Orbit Cloud",
+        "title": "Software Engineer",
+        "start": "2024-01",
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "Karan Mehta"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "2"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "karan.mehta@example.com"
+      },
+      {
+        "field": "location.city",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "Pune, Maharashtra, India"
+      },
+      {
+        "field": "location.region",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "Pune, Maharashtra, India"
+      },
+      {
+        "field": "location.country",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "Pune, Maharashtra, India"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "Java; SQL"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "contextual_regex_extraction",
+        "record_id": "notes-block-2",
+        "confidence": 0.65,
+        "raw_value": "Spring Boot"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "exact_csv_column",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": "Java; SQL"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "exact_csv_columns",
+        "record_id": "CSV-1002",
+        "confidence": 0.9,
+        "raw_value": {
+          "company": "Orbit Cloud",
+          "title": "Software Engineer",
+          "start": "2024-01",
+          "end": null,
+          "summary": null
+        }
+      }
+    ],
+    "overall_confidence": 0.88
+  }
+]
