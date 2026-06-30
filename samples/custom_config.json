@@ -26,7 +26,6 @@
 },
 {
 "path": "years_experience",
-"from": "years_experience",
 "type": "number"
 }
 ],

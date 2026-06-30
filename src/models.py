@@ -80,7 +80,11 @@ class OutputField(BaseModel):
     model_config = ConfigDict(populate_by_name=True, extra="forbid")
 
     path: str = Field(min_length=1)
-    source_path: str = Field(alias="from", min_length=1)
+    source_path: str | None = Field(
+        default=None,
+        alias="from",
+        min_length=1,
+    )
     type: Literal[
         "string",
         "number",

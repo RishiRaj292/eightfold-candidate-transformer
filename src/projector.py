@@ -191,9 +191,11 @@ def project_candidate(
     output: dict[str, Any] = {}
 
     for field in config.fields:
+        source_path = field.source_path or field.path
+
         value = _resolve_source_path(
             canonical,
-            field.source_path,
+            source_path,
         )
 
         if value is _MISSING or value is None:
