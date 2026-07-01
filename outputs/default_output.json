@@ -227,6 +227,13 @@
       {
         "company": "Orbit Cloud",
         "title": "Software Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      },
+      {
+        "company": "Orbit Cloud",
+        "title": "Software Engineer",
         "start": "2024-01",
         "end": null,
         "summary": null
@@ -315,12 +322,26 @@
         "raw_value": {
           "company": "Orbit Cloud",
           "title": "Software Engineer",
-          "start": "2024-01",
+          "start": "2024-01A",
+          "end": null,
+          "summary": null
+        }
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "contextual_regex_extraction",
+        "record_id": "notes-block-2",
+        "confidence": 0.65,
+        "raw_value": {
+          "company": "Orbit Cloud",
+          "title": "Software Engineer",
+          "start": "Jan 2024",
           "end": null,
           "summary": null
         }
       }
     ],
-    "overall_confidence": 0.88
+    "overall_confidence": 0.85
   }
 ]
