@@ -1,3 +1,3 @@
 candidate_ref,full_name,email,phone,current_company,title,location,years_experience,skills,start_date
 CSV-1001,Aditi Rao,ADITI.RAO@example.com,98765 43210,Nexa Labs,Backend Engineer,"Bengaluru, Karnataka, India",4,"Python; FastAPI; JS",2023/03
-CSV-1002,Karan Mehta,karan.mehta@example.com,12345,Orbit Cloud,Software Engineer,"Pune, Maharashtra, India",2,"Java; SQL",2024-01A
+CSV-1002,Karan Mehta,karan.mehta@example.com,12345,Orbit Cloud,Software Engineer,"Pune, Maharashtra, India",2,"Java; SQL",2024-01
